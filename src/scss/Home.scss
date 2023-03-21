@@ -1,0 +1,156 @@
+@import './variables.scss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply font-[Poppins];
+	}
+	li {
+		@apply p-4;
+	}
+}
+
+// * {
+// 	box-sizing: border-box;
+// 	margin: 0;
+// 	padding: 0;
+// 	font-family: $font-main;
+// }
+
+// .container-login {
+// 	height: 100vh;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	flex-direction: column;
+// 	// background-color: $color-secondary;
+// 	background-image: url(../assets/golden.jpg);
+// 	background-position: center;
+// 	background-size: cover;
+
+// 	// border: 2px dashed red;
+// }
+// .welcome-container {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	flex-direction: column;
+// 	margin-bottom: -3em;
+// 	position: absolute;
+// 	top: 1em;
+// 	.welcome-top {
+// 		font-family: $font-secondary;
+// 		margin-bottom: -2em;
+// 	}
+// 	.welcome-middle {
+// 		text-align: center;
+// 		width: 100vw;
+// 		font-family: $font-main;
+// 		font-size: 2em;
+// 		color: $color-primary;
+// 		background: $color-quartenary;
+// 		margin-bottom: 1em;
+// 		position: relative;
+// 		top: 1em;
+// 	}
+// 	.welcome-bottom {
+// 		margin-bottom: -2em;
+// 		font-family: $font-secondary;
+// 		font-size: $font-secondary-size;
+// 	}
+// 	@include tablet {
+// 		font-size: 1.5em;
+// 	}
+// }
+// .animation-backpack {
+// 	height: auto;
+// 	width: auto;
+// 	position: absolute;
+// 	top: 4em;
+// 	@include mobile_mini {
+// 		height: 50vh;
+// 		width: 50vh;
+// 	}
+// 	@include tablet {
+// 		height: 55vh;
+// 		width: 55vh;
+// 	}
+// }
+
+// .box {
+// 	width: 20em;
+// 	border: 1px solid black;
+// 	border-radius: 1.5em;
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	padding: 2em;
+// 	// position: absolute;
+// 	// top: 30em;
+// 	// margin-bottom: 0.5em;
+// 	margin-top: 45vh;
+// 	gap: 1em;
+// 	background-color: white;
+// 	@include tablet {
+// 		top: 35em;
+// 		width: 30em;
+// 		padding: 2em;
+// 	}
+// 	& .name,
+// 	.trip-date,
+// 	.trip-destination {
+// 		font-size: 1em;
+// 		font-family: $font-main;
+// 		border: none;
+// 		border-bottom: 1px solid;
+// 		padding: 0.5em;
+// 		&:focus {
+// 			background-color: $color-secondary;
+// 			font-weight: 400;
+// 			border: 1px solid $color-secondary;
+// 		}
+// 	}
+// 	& .button-container {
+// 		display: flex;
+// 		justify-content: center;
+// 		& .btn-lets_go {
+// 			font-size: $font-secondary-size;
+// 			font-family: $font-main;
+// 			background-color: $color-primary;
+// 			color: $color-quartenary;
+// 			width: 6em;
+// 			padding: 0.5em;
+// 			border-radius: 5em;
+// 			text-align: center;
+// 			text-decoration: none;
+// 			@include tablet {
+// 				width: 10em;
+// 				padding: 1em;
+// 			}
+// 		}
+// 	}
+// }
+// .quote {
+// 	text-align: center;
+// 	font-family: $font-secondary;
+// 	font-size: $font-secondary-size;
+// 	background: $color-quartenary;
+// 	border-radius: 1em;
+// 	text-decoration: underline;
+// 	width: 50vw;
+// 	margin-top: 2vh;
+// 	margin-bottom: 0vh;
+// 	// position: absolute;
+// 	// top: 48.5em;
+// 	.quote-author {
+// 		font-size: 0.7em;
+// 		// margin-top: 1em;
+// 		text-align: center;
+// 	}
+// 	@include tablet {
+// 		margin-bottom: -7vh;
+// 		font-size: 1.2em;
+// 	}
+// }

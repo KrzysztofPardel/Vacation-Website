@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './variables.scss';
+@layer base {
+	body {
+		@apply font-[Poppins];
+	}
+	li {
+		@apply p-4;
+	}
+}
