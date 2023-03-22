@@ -6,7 +6,7 @@ const style = {
 	container: `max-w-[1240px] mx-auto flex flex-col px-4`,
 	container_socialMedia: `sm:flex text-center justify-between items-center`,
 	container_icons_socialMedia: `flex justify-between w-full sm:max-w-[280px] my-4`,
-	container_links: `flex justify-between`,
+	container_links: `flex justify-between text-xl`,
 }
 const Footer = () => {
 	return (

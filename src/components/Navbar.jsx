@@ -9,9 +9,9 @@ import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaYoutube } from 'reac
 const style = {
 	container: `flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white`,
 	pages_ul: `hidden md:flex`,
-	pages_link: `p-4`,
+	pages_link: `p-4 hover:bg-slate-100/30 rounded-full text-2xl`,
 	container_icons: `hidden md:flex`,
-	p_icons: `mr-2 text-xs`,
+	p_icons: `mr-2 text-lg`,
 	icon_Person: `mr-2 text-m`,
 	icon_Search: `mr-2`,
 	icon_LogOut: `mr-2 cursor-pointer`,
@@ -49,8 +49,11 @@ const Navbar = () => {
 				</h1>
 			</div>
 			<ul className={style.pages_ul}>
-				<Link to='/' className={style.pages_link}>
+				<Link to='/home' className={style.pages_link}>
 					Home
+				</Link>
+				<Link to='/home/aboutus' className={style.pages_link}>
+					About Us
 				</Link>
 				<Link to='/' className={style.pages_link}>
 					Destinations
@@ -83,7 +86,7 @@ const Navbar = () => {
 				<ul className=''>
 					<h1 className='border-b'>Vacation.</h1>
 					<li className='border-b'>Home</li>
-					<li className='border-b'>Destinations</li>
+					<li className='border-b'>About Us</li>
 					<li className='border-b'>Travel</li>
 					<li className='border-b'>View</li>
 					<li className='border-b'>Book</li>

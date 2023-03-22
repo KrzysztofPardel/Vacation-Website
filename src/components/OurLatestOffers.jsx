@@ -38,12 +38,12 @@ const OurLatestOffers = () => {
 			<div className='w-full h-full relative flex justify-center items-center'>
 				<BsArrowLeftSquareFill
 					onClick={prevSlide}
-					className='absolute top-[50%] -left-12 text-white cursor-pointer  bg-[#709dff] text-lg'
+					className='absolute top-[85%] -left-12 text-white cursor-pointer  bg-[#709dff] text-lg'
 					loop
 				/>
 				<BsArrowRightSquareFill
 					onClick={nextSlide}
-					className='absolute top-[50%] -right-12 text-white cursor-pointer  bg-[#709dff] text-lg'
+					className='absolute top-[85%] -right-12 text-white cursor-pointer  bg-[#709dff] text-lg'
 					loop
 				/>
 				{sliderData.map((item, index) => (

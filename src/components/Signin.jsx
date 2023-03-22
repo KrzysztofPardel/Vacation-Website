@@ -10,13 +10,20 @@ const style = {
 	background: `-z-10 absolute bg-fixed w-[100vw] h-[100vh] opacity-40`,
 	container_all: `flex justify-between items-center p-20`,
 	line: `w-[0.1em] h-[35rem] border-right bg-black mx-10`,
-	container_left: `max-w-[700px] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
-	container_right: `max-w-[700px] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
-	header: `text-2xl font-bold py-2`,
+	container_left: `h-[65vh] max-w-[700px] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
+	container_right: ` h-[65vh] max-w-[700px] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl text-center`,
+	header_left: `text-2xl font-bold py-2`,
 	container_small: `flex flex-col py-2`,
 	label: `py-2 font-medium`,
 	inputs: `border p-3`,
 	button: `border border-blue-500 bg-blue-600 hover:bg-blue-500 w-full p-4 my-2 text-white`,
+	header_right: `text-2xl font-bold py-2 text-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)]`,
+	p_quote: `font-thin text-center py-2 italic`,
+	p_quoteAuthor: `text-center text-base`,
+	component_container: `max-w-[50em] max-h-[30em] mx-auto m-4 border-2 border-grey-300 bg-slate-100/60 rounded-xl bg-gradient-to-r from-[var(--primary-dark)] via-green-300 to-[var(--primary-light)] p-1`,
+	h3_component: `p-2 text-center text-white`,
+	div_component: `flex justify-center mb-1`,
+	component: `w-[15em] h-[11em] drop-shadow-xl`,
 }
 const Signin = () => {
 	const [email, setEmail] = useState('')
@@ -44,7 +51,7 @@ const Signin = () => {
 				<div className={style.container_all}>
 					<div className={style.container_left}>
 						<div>
-							<h1 className={style.header}>Sign in to your account</h1>
+							<h1 className={style.header_left}>Sign in to your account</h1>
 							<p className='py-2'>
 								Don't have an account yet?{' '}
 								<Link to='/signup' className='underline'>
@@ -67,14 +74,14 @@ const Signin = () => {
 					<div className={style.line}></div>
 					<div className={style.container_right}>
 						<div>
-							<h1 className={style.header}>Why not allow yourself some vacation?</h1>
-							<p className='py-4'>"Nothing is more expensive than a missed opportunity"</p>
-							<span className='text-center'>H.Jackson Brown Jr.</span>
+							<h1 className={style.header_right}>Why not allow yourself some vacation?</h1>
+							<p className={style.p_quote}>"Nothing is more expensive than a missed opportunity"</p>
+							<p className={style.p_quoteAuthor}>H.Jackson Brown Jr.</p>
 						</div>
-						<div className='max-w-[50em] max-h-[30em] mx-auto m-4 border-2 border-grey-500 bg-slate-200 rounded-xl'>
-							<h3 className='p-2 text-center'> Our hottest opportunities </h3>
-							<div className='flex justify-center'>
-								<div className='w-[15em] h-[11em]'>
+						<div className={style.component_container}>
+							<h3 className={style.h3_component}> New locations coming up this summer! </h3>
+							<div className={style.div_component}>
+								<div className={style.component}>
 									<OurLatestOffers />
 								</div>
 							</div>

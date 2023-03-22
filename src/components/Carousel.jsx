@@ -43,13 +43,14 @@ const sliderData = [
 
 const Carousel = () => {
 	const [slide, setSlide] = useState(0)
-
 	const prevSlide = () => {
-		setSlide(slide === length - 1 ? 0 : slide + 1)
+		setSlide(slide === 0 ? sliderData.length - 1 : slide - 1)
 	}
+	//if index=0, set the element to the last, otherwise decrement it by 1
 	const nextSlide = () => {
-		setSlide(slide === 0 ? length - 1 : slide - 1)
+		setSlide(slide === sliderData.length - 1 ? 0 : slide + 1)
 	}
+	//if index=last element of the array, set the element to 0, otherwise increment it by 1
 
 	return (
 		<>

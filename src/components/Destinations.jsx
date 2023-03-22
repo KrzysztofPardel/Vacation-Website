@@ -1,5 +1,4 @@
 import React from 'react'
-import keywest from '../assets/keywest.jpg'
 import imageone from '../assets/imageone.jpg'
 import imagetwo from '../assets/imagetwo.jpg'
 import imagethree from '../assets/imagethree.jpg'

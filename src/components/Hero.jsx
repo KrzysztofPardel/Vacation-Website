@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { AiOutlineSearch } from 'react-icons/ai'
-import WeatherApp from '/src/components/WeatherApp.jsx'
 import sunset from '../assets/sunset.mp4'
 const style = {
 	container: `w-full h-screen relative`,
@@ -11,7 +10,7 @@ const style = {
 	h3: `py-2`,
 	form: `flex justify-between items-center max-w-[700px] mx-auto w-full border p-1 rounded-md text-black bg-gray-100/90`,
 	input: `bg-transparent w-[300px] sm:w-[400px] font-[Poppins] focus:outline-none`,
-	button: ``,
+	
 }
 const Hero = () => {
 	return (

@@ -6,6 +6,7 @@ import Signin from '/src/components/Signin.jsx'
 import Signup from '/src/components/Signup.jsx'
 import ProtectedRoute from '/src/components/ProtectedRoute.jsx'
 import Home from '/src/components/Home.jsx'
+import WhyUs from '/src/components/WhyUs.jsx'
 import TakeList from '/src/components/ToTakeList.jsx'
 import WeatherApp from '/src/components/WeatherApp.jsx'
 import { AuthContextProvider } from '../context/AuthContext'
@@ -25,6 +26,7 @@ const App = () => {
 						}
 					/>
 					{/* <Route path='/home' element={<Home />} /> */}
+					<Route path='/home/whyus' element={<WhyUs />} />
 					<Route path='/home/takelist' element={<TakeList />} />
 					<Route path='/home/weatherapp' element={<WeatherApp />} />
 				</Routes>
