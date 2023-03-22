@@ -1,8 +1,8 @@
 
 
-# Welcome to my Trip Planner App
+# Welcome to my Vacation Website
 
-This is an app which will help you remember about everything there is to remember on your next trip! 
+Why not allow yourself some vacation? Plan your vacation in an exclusive resort! Use this website which will help you organize your vacation! 
 
 
 ## Authorship
@@ -18,10 +18,9 @@ This is an app which will help you remember about everything there is to remembe
 #### Markup language:
  - HTML5
 #### Styling:
-- CSS:
-  - CSS (Cascading Style Sheets)
-- SASS:
-  - SASS (Syntactically Awesome Style Sheets)
+- CSS  (Cascading Style Sheets)
+- SASS (Syntactically Awesome Style Sheets)
+- Tailwind CSS (Open source CSS framework)
 #### Tools:
   - Vite
 

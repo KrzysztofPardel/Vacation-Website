@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs'
 import ToTakeList from './ToTakeList'
-const style={
-	
-}
+const style = {}
 const sliderData = [
 	{
 		url: 'https://images.pexels.com/photos/1005417/pexels-photo-1005417.jpeg?auto=compress&cs=tinysrgb&w=600',
