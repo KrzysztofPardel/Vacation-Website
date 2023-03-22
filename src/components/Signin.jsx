@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import '../scss/Others.scss'
 import OurLatestOffers from './OurLatestOffers'
@@ -8,10 +8,10 @@ import { onAuthStateChanged } from '@firebase/auth'
 import { auth } from '../firebase'
 const style = {
 	background: `-z-10 absolute bg-fixed w-[100vw] h-[100vh] opacity-40`,
-	container_all: `flex justify-between items-center p-20`,
-	line: `w-[0.1em] h-[35rem] border-right bg-black mx-10`,
-	container_left: `h-[65vh] max-w-[700px] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
-	container_right: ` h-[65vh] max-w-[700px] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl text-center`,
+	container_all_: `flex justify-between items-center p-20`,
+	line: `w-[0.1em] h-[35rem] border-right bg-slate-400 mx-10`,
+	container_left_: `h-[65vh] max-w-[30vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
+	container_right_: ` h-[65vh] max-w-[700px] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl text-center`,
 	header_left: `text-2xl font-bold py-2`,
 	container_small: `flex flex-col py-2`,
 	label: `py-2 font-medium`,
@@ -48,8 +48,8 @@ const Signin = () => {
 		<>
 			<div className=''>
 				<img src={island} alt='' className={style.background} />
-				<div className={style.container_all}>
-					<div className={style.container_left}>
+				<div className={style.container_all_}>
+					<div className={style.container_left_}>
 						<div>
 							<h1 className={style.header_left}>Sign in to your account</h1>
 							<p className='py-2'>
@@ -72,7 +72,7 @@ const Signin = () => {
 						</form>
 					</div>
 					<div className={style.line}></div>
-					<div className={style.container_right}>
+					<div className={style.container_right_}>
 						<div>
 							<h1 className={style.header_right}>Why not allow yourself some vacation?</h1>
 							<p className={style.p_quote}>"Nothing is more expensive than a missed opportunity"</p>

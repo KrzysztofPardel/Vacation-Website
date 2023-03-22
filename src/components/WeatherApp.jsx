@@ -38,7 +38,7 @@ const WeatherApp = () => {
 							<p>{data.name}</p>
 						</div>
 						<div className='temp'>
-							{data.main ? <h1>{data.main.temp.toFixed()}°C</h1> : null}
+							{data.main ? <h1 className='header'>{data.main.temp.toFixed()}°C</h1> : null}
 							{/* <h1>{data.main.temp}</h1> */}
 						</div>
 						<div className='description'>
@@ -52,17 +52,17 @@ const WeatherApp = () => {
 							<div className='feels'>
 								{data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°C</p> : null}
 								{/* <p className='bold'>65°F</p> */}
-								<p>Feels Like</p>
+								<p className='paragraph'>Feels Like</p>
 							</div>
 							<div className='humidity'>
 								{data.main ? <p className='bold'>{data.main.humidity}%</p> : null}
 								{/* <p className='bold'>20%</p> */}
-								<p>Humidity</p>
+								<p className='paragraph'>Humidity</p>
 							</div>
 							<div className='wind'>
 								{data.wind ? <p className='bold'>{data.wind.speed.toFixed()} MPH</p> : null}
 								{/* <p className='bold'>12 MPH</p> */}
-								<p>Wind Speed</p>
+								<p className='paragraph'>Wind Speed</p>
 							</div>
 						</div>
 					)}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Death_Valley_Hills from '../assets/Death_Valley_Hills.jpg'
 
 const style = {
@@ -7,8 +7,8 @@ const style = {
 	overlay: `absolute w-full h-full top-0 left-0 bg-gray-900/25`,
 	container_small: `absolute bottom-20 right-20 w-[35em] h-[20em] flex flex-col justify-center text-center p-5 bg-slate-100`,
 	h1: `py-1 text-black`,
-	p: `italic text-slate-400 drop-shadow-2xl contrast-100 inline`,
-	description: `py-2 text-black text-justify text-lg`,
+	p: `italic text-slate-400 drop-shadow-2xl contrast-100 inline text-5xl`,
+	description: `py-2 text-black text-justify text-2xl`,
 }
 const WhyUsHero = () => {
 	return (

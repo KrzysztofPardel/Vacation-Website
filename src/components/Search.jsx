@@ -4,10 +4,10 @@ const style = {
 	container: `max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16`,
 	left_container: `lg:col-span-2 flex flex-col justify-evenly`,
 	right_container: `border text-center h-auto`,
-	long_p: `py-4 text-justify`,
+	long_p: `py-4 text-justify text-xl`,
 	services_container: `grid sm:grid-cols-2 gap-8 py-4`,
 	services_container_icons: `flex flex-col lg:flex-row items-center text-center`,
-	services_container_text: `flex flex-col justify-center items-center`,
+	services_container_text: `flex flex-col justify-center items-center text-xl`,
 	button_BookNow: `bg-gray-800 text-gray-200 py-2`,
 	form: `w-full`,
 	destinations_container: `flex flex-col my-2`,
@@ -25,13 +25,12 @@ const Search = () => {
 					<h2>Vacations for couples, families and groups.</h2>
 					<h3>Choose your discount!</h3>
 					<p className={style.long_p}>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis, illo beatae eius provident non
-						consequuntur dolores ad. Illum nisi magni aspernatur rem amet vitae, tempora, cupiditate ex delectus totam
-						ad sed minima sint aliquid ducimus esse! Laborum quia cum id blanditiis, a quis labore architecto maiores
-						natus, deleniti, nemo amet tenetur cumque officia reiciendis repellendus. Fugit cupiditate voluptate
-						quibusdam eaque, ut, beatae amet magnam, quasi vitae voluptatum sint quos nisi? Sequi doloremque tenetur
-						reiciendis id, nulla perferendis incidunt. Consequuntur ipsam nesciunt eaque nisi distinctio inventore at
-						laudantium vel, fugiat vero tenetur? Animi error ab expedita commodi a odio nisi.
+						Escape to a tropical paradise with Vacation, your ultimate travel companion! Indulge in the beauty of an
+						island getaway with the sound of the waves and the warm sun on your skin. Our short vacation packages are
+						tailored to your preferences and budget, offering a variety of activities, such as snorkeling, surfing, and
+						relaxing spa treatments. Explore the local culture and cuisine, while unwinding in a luxurious resort or a
+						cozy beach bungalow. Let Vacation take care of the details, while you immerse yourself in an unforgettable
+						island experience. Book now and make memories that will last a lifetime!
 					</p>
 				</div>
 				<div className={style.services_container}>

@@ -9,13 +9,14 @@ const style = {
 	img_container: `grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4`,
 	img_bigger: `w-full h-full object-cover col-span-2 md:col-span-3 row-span-2`,
 	img_regular: `w-full h-full object-cover`,
+	header_h3: `text-3xl font-medium py-4`,
 }
 
 const Destinations = () => {
 	return (
 		<div className={style.container}>
 			<h1>Unexpected islands</h1>
-			<p className='py-4'>See & Do</p>
+			<h3 className={style.header_h3}>See & Do</h3>
 			<div className={style.img_container}>
 				<img className={style.img_bigger} src={imageone} alt='/' />
 				<img className={style.img_regular} src={imagetwo} alt='/' />

@@ -9,11 +9,11 @@ import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaYoutube } from 'reac
 const style = {
 	container: `flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white`,
 	pages_ul: `hidden md:flex`,
-	pages_link: `p-4 hover:bg-slate-100/30 rounded-full text-2xl`,
+	pages_link: `p-4 hover:bg-slate-100/30 rounded-full text-lg`,
 	container_icons: `hidden md:flex`,
-	p_icons: `mr-2 text-lg`,
+	p_icons: `mr-2 text-base`,
 	icon_Person: `mr-2 text-m`,
-	icon_Search: `mr-2`,
+	icon_Search: `mr-2 cursor-pointer`,
 	icon_LogOut: `mr-2 cursor-pointer`,
 	mobile_Nav: `md:hidden z-10`,
 	mobile_NavShown: `absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col`,
@@ -52,11 +52,11 @@ const Navbar = () => {
 				<Link to='/home' className={style.pages_link}>
 					Home
 				</Link>
-				<Link to='/home/aboutus' className={style.pages_link}>
+				<Link to='/home/whyus' className={style.pages_link}>
 					About Us
 				</Link>
-				<Link to='/' className={style.pages_link}>
-					Destinations
+				<Link to='/home/availabilities' className={style.pages_link}>
+					Availabilities
 				</Link>
 				<Link to='/' className={style.pages_link}>
 					View

@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import Friends from '../assets/Friends.jpg'
+import React from 'react'
 import hydroplane from '../assets/hydroplane.jpg'
 import indianwoman from '../assets/indianwoman.jpg'
 import tent from '../assets/tent.jpg'
@@ -13,8 +12,8 @@ const style = {
 	container_all: `flex`,
 	container_small: ` w-[30vw] h-auto flex flex-col justify-center text-center p-5 bg-white`,
 	h1: `py-1 text-black`,
-	p: `italic text-slate-400 drop-shadow-2xl contrast-100 mr-1 inline  `,
-	description: `py-2 text-black text-justify text-lg`,
+	p: `italic text-slate-400 drop-shadow-2xl contrast-100 mr-1 text-5xl`,
+	description: `py-2 text-black text-justify text-2xl`,
 }
 const WhyUsOurWhether = () => {
 	return (
