@@ -6,6 +6,7 @@ import AvailabilitiesPlane from '/src/components/AvailabilitiesPlane.jsx'
 import Footer from '/src/components/Footer.jsx'
 import AvailabilitiesStay from './AvailabilitiesStay'
 import AvailabilitiesCarRental from './AvailabilitiesCarRental'
+import AvailabilitiesPay from './AvailabilitiesPay'
 
 const Availabilities = () => {
 	return (
@@ -15,6 +16,7 @@ const Availabilities = () => {
 			<AvailabilitiesPlane />
 			<AvailabilitiesStay />
 			<AvailabilitiesCarRental />
+            <AvailabilitiesPay/>
 			<Footer />
 		</>
 	)

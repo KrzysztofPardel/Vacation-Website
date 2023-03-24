@@ -72,7 +72,7 @@ const AvailabilitiesPlane = () => {
 							</div>
 						</form>
 						<div className={style.divforbutton}>
-							<button className={style.button}>Search</button>
+							<button className={style.button}>Proceed</button>
 						</div>
 					</div>
 				</div>
