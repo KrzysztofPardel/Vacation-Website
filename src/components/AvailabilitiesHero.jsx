@@ -18,7 +18,7 @@ const style = {
 	arrow_image: `w-20 -mb-16`,
 	// description: `py-2 text-black text-justify text-2xl`,
 }
-const WhyUsHero = () => {
+const AvailabilitiesHero = () => {
 	return (
 		<>
 			<div className={style.container}>
@@ -70,4 +70,4 @@ const WhyUsHero = () => {
 	)
 }
 
-export default WhyUsHero
+export default AvailabilitiesHero
