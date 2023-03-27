@@ -2,11 +2,9 @@ import React, { useState, useEffect } from 'react'
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs'
 import SelectsOffer from './SelectsOffer'
 import imageone from '../assets/imageone.jpg'
-import imagetwo from '../assets/imagetwo.jpg'
 import imagethree from '../assets/imagethree.jpg'
-import imagefour from '../assets/imagefour.jpg'
 import imagefive from '../assets/imagefive.jpg'
-import imagesix from '../assets/imagesix.jpg'
+
 // import { images } from './assets'
 const style = {
 	container: `w-full  flex justify-center items-center`,
