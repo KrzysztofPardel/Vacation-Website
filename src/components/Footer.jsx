@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom'
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaYoutube } from 'react-icons/fa'
 const style = {
 	bg: `w-full bg-gray-100 py-16'`,
-	container: `max-w-[1240px] mx-auto flex flex-col px-4`,
+	container: `w-[100%] mx-auto flex flex-col px-4`,
 	container_socialMedia: `sm:flex text-center justify-between items-center`,
-	container_icons_socialMedia: `flex justify-between w-full sm:max-w-[280px] my-4`,
-	container_links: `flex justify-between text-xl`,
+	container_icons_socialMedia: `flex justify-between w-full sm:max-w-[280px] my-4 hover:border-blue-500`,
+	container_links: `flex flex-col justify-around lg:flex-row lg:justify-between text-xl mb-[5rem]`,
+	ul_left: `w-[100%] flex flex-col items-center mb-5`,
+	ul_right: `w-[100%] flex flex-col items-center md:text-right md:mb-[3rem] md:border-t-2 md:border-blue-100 `,
+	links: `text-base text-center md:text-xl p-2 md:p-3 border-b-2 w-[8rem] hover:w-[12rem] border-[#709dff] hover:border-blue-500`,
 }
 const Footer = () => {
 	return (
