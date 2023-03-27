@@ -8,10 +8,10 @@ import { GiPresent } from 'react-icons/gi'
 import { AiOutlinePlusCircle } from 'react-icons/ai'
 const style = {
 	background: `hidden lg:block -z-10 absolute bg-fixed w-[300rem] h-[60rem] opacity-40`,
-	background_mobile: `lg:hidden -z-10 absolute sm:bg-fixed w-[70rem] md:w-[100rem] h-[70rem] md:h-[75rem] opacity-40`,
+	background_mobile: `lg:hidden -z-10 absolute sm:bg-fixed w-[70rem] md:w-[100rem] h-[75rem] md:h-[75rem] opacity-40`,
 	container_all: `flex flex-col-reverse lg:flex-row justify-center md:justify-between items-center p-5 md:p-15 lg:p-20 `,
-	container_left: `h-[50vh] md:h-[55vh] lg:h-[35rem] xl:h-[30rem] w-[90vw] md:m-10 lg:mr-2 p-10 bg-slate-200/70 rounded-3xl`,
-	container_right: `h-[60vh] md:h-[50vh] lg:h-[35rem] xl:h-[30rem] w-[90vw] md:w- lg:w- mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl text-center`,
+	container_left: `h-[50vh] md:h-[55vh] lg:h-[35rem] xl:h-[30rem] w-[90vw] m-10 md:mt-[2rem] lg:mr-2 p-10 bg-slate-200/70 rounded-3xl`,
+	container_right: `h-[60vh] md:h-[55vh] lg:h-[35rem] xl:h-[30rem] w-[90vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl text-center`,
 	header_left: `text-2xl md:text-3xl font-bold py-2`,
 	container_small: `flex flex-col py-2`,
 	label: `py-2 font-medium`,
