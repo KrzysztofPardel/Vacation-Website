@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom'
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaYoutube } from 'react-icons/fa'
 const style = {
 	bg: `w-full bg-gray-100 py-16'`,
-	container: `max-w-[1240px] mx-auto flex flex-col px-4`,
+	container: `w-[100%] mx-auto flex flex-col px-4`,
 	container_socialMedia: `sm:flex text-center justify-between items-center`,
 	container_icons_socialMedia: `flex justify-between w-full sm:max-w-[280px] my-4`,
-	container_links: `flex justify-between text-xl`,
+	container_links: `flex md:flex-col justify-between text-xl`,
+	ul:`lg:flex`,
 }
 const Footer = () => {
 	return (

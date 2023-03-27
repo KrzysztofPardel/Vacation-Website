@@ -100,12 +100,12 @@ const AvailabilitiesStay = () => {
 							<div className={style.input_container}>
 								<div className={style.container_small}>
 									<label className={style.label}>Min.price</label>
-									<input className={style.inputs} type='number' />
+									<input className={style.inputs} type='number'placeholder='ex. 25' />
 								</div>
 								<div className={style.container_small}>
 									<label className={style.label}>Max.price</label>
 									<div className={style.input_conteiner_price}>
-										<input className={style.inputs} type='number' />
+										<input className={style.inputs} type='number' placeholder='ex. 250' />
 										<select className={style.select}>
 											<option>USD</option>
 											<option>EUR</option>

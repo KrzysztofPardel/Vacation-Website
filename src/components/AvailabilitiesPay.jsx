@@ -6,11 +6,11 @@ import { SiAmericanexpress } from 'react-icons/si'
 const style = {
 	background: `-z-10 absolute w-[100vw] h-[100vh] opacity-40 mt-[3em] `,
 	container_all_: `flex w-[100vw] h-[100vh] justify-between items-center p-20`,
-	container_window: `h-[35rem] w-[50rem] flex justify-center mx-auto m-10 -mb-[0.5rem] p-10 bg-slate-800/70 rounded-3xl`,
+	container_window: `h-[35rem] -md:h-[60rem] w-[50rem] flex flex-row justify-center mx-auto m-10 -mb-[0.5rem] p-10 bg-slate-800/70 rounded-3xl`,
 	container_leftSide: `flex flex-col items-center`,
 	header_h1: `font-thin py-1 text-white`,
 	subheader_h3: `text-white `,
-	container_booked: `h-[20rem] w-[15rem] bg-white rounded-lg`,
+	container_booked: `h-[25rem] md:h-[20rem] w-[15rem] bg-white rounded-lg`,
 	line: `h-[28rem] w-[0.1rem] bg-black m-[1rem]`,
 	container_rightSide: `w-[60%]`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-white`,

@@ -2,12 +2,15 @@ import React, { useState, useEffect } from 'react'
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs'
 import SelectsOffer from './SelectsOffer'
 import imageone from '../assets/imageone.jpg'
-import imagetwo from '../assets/imagetwo.jpg'
 import imagethree from '../assets/imagethree.jpg'
-import imagefour from '../assets/imagefour.jpg'
 import imagefive from '../assets/imagefive.jpg'
-import imagesix from '../assets/imagesix.jpg'
+
 // import { images } from './assets'
+const style = {
+	container: `w-full  flex justify-center items-center`,
+	arrow_left: `absolute top-[65%] -left-12 text-white cursor-pointer  bg-[#709dff] text-xl md:text-3xl`,
+	arrow_right: `absolute top-[65%] -right-12 text-white cursor-pointer  bg-[#709dff] text-xl md:text-3xl`,
+}
 
 const sliderData = [
 	{
@@ -35,24 +38,18 @@ const OurLatestOffers = () => {
 
 	return (
 		<>
-			<div className='w-full h-full relative flex justify-center items-center'>
-				<BsArrowLeftSquareFill
-					onClick={prevSlide}
-					className='absolute top-[85%] -left-12 text-white cursor-pointer  bg-[#709dff] text-lg'
-					loop
-				/>
-				<BsArrowRightSquareFill
-					onClick={nextSlide}
-					className='absolute top-[85%] -right-12 text-white cursor-pointer  bg-[#709dff] text-lg'
-					loop
-				/>
+			<div className={style.container}>
+				<BsArrowLeftSquareFill onClick={prevSlide} className={style.arrow_left} loop />
+				<BsArrowRightSquareFill onClick={nextSlide} className={style.arrow_right} loop />
 				{sliderData.map((item, index) => (
 					<div
 						key={index}
 						className={
 							index == slide ? 'opacity-100 transition-duration: 550ms' : 'opacity-0 transition-duration: 550ms'
 						}>
-						{index === slide && <div className='rounded-md shadow-sm bg-contain bg-no-repeat'>{item.component}</div>}
+						{index === slide && (
+							<div className='rounded-md shadow-sm bg-contain bg-no-repeat lg:h-[10rem]'>{item.component}</div>
+						)}
 					</div>
 				))}
 			</div>

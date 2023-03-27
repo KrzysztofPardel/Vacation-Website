@@ -53,11 +53,11 @@ const AvailabilitiesPlane = () => {
 							<div className={style.input_container}>
 								<div className={style.container_small}>
 									<label className={style.label}>From</label>
-									<input className={style.inputs} type='string' />
+									<input className={style.inputs} type='string' placeholder='Lisbon, Portugal' />
 								</div>
 								<div className={style.container_small}>
 									<label className={style.label}>To</label>
-									<input className={style.inputs} type='string' />
+									<input className={style.inputs} type='string'  placeholder='Key West, Florida' />
 								</div>
 							</div>
 							<div className={style.input_container}>

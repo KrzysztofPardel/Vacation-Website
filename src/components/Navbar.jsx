@@ -58,9 +58,6 @@ const Navbar = () => {
 				<Link to='/home/availabilities' className={style.pages_link}>
 					Availabilities
 				</Link>
-				<Link to='/' className={style.pages_link}>
-					Book
-				</Link>
 				<Link to='/home/takelist' className={style.pages_link}>
 					Plan
 				</Link>

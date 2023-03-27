@@ -55,7 +55,7 @@ const AvailabilitiesCarRental = () => {
 							<div className={style.input_container}>
 								<div className={style.container_small}>
 									<label className={style.label}>Pick up location</label>
-									<input className={style.inputs} type='text' />
+									<input className={style.inputs} type='text' placeholder='New Town, Key West, Florida' />
 								</div>
 							</div>
 							<div className={style.input_container}>
