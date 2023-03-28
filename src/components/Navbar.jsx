@@ -7,20 +7,20 @@ import { AiOutlineClose, AiOutlineLogout } from 'react-icons/ai'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaYoutube } from 'react-icons/fa'
 const style = {
-	container: `flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white`,
+	container: `flex w-[100%] justify-between items-center h-20 px-4 absolute z-10 text-white`,
 	pages_ul: `hidden md:flex`,
-	pages_link: `p-4 hover:bg-slate-100/30 rounded-full text-lg`,
-	container_icons: `hidden md:flex`,
-	p_icons: `mr-2 text-base`,
-	icon_Person: `mr-2 text-m`,
-	icon_Search: `mr-2 cursor-pointer`,
-	icon_LogOut: `mr-2 cursor-pointer`,
+	pages_link: `p-4 hover:bg-slate-100/30 rounded-full text-xs md:text-sm lg:text-lg text-center`,
+	container_icons: `hidden md:flex `,
+	p_icons: `mr-2 text-base text-xs md:text-sm lg:text-lg`,
+	icon_Person: `mr-2`,
+	icon_Search: `mr-2`,
+	icon_LogOut: `mr-2`,
 	mobile_Nav: `md:hidden z-10`,
-	mobile_NavShown: `absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col`,
+	mobile_NavShown: `absolute text-black left-0 top-0 w-full bg-gray-100/90 px-1 md:px-2 lg:px-4 py-7 flex flex-col`,
 	mobile_NavHidden: `absolute left-[-100%]`,
-	mobile_container_icons: `flex justify-center`,
-	mobile_p_icons: `mr-2 text-sm text-[#5651e5]`,
-	mobile_icon: `mr-2 text-m text-[#709dff] cursor-pointer`,
+	mobile_container_icons: `flex justify-center md:text-sm`,
+	mobile_p_icons: `mr-2 text-sm md:text-sm lg:text-lg text-[#5651e5]`,
+	mobile_icon: `mr-2 text-sm md:text-sm lg:text-lg text-[#709dff] cursor-pointer `,
 }
 const Navbar = () => {
 	const [nav, setNav] = useState(false)
