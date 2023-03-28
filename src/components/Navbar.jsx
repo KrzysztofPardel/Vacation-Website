@@ -8,6 +8,7 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaYoutube } from 'react-icons/fa'
 const style = {
 	container: `flex w-[100%] justify-between items-center h-20 px-4 absolute z-10 text-white`,
+	logo_Vacation: `block text-base md:text-lg`,
 	pages_ul: `hidden md:flex`,
 	pages_link: `p-4 hover:bg-slate-100/30 rounded-full text-xs md:text-sm lg:text-lg text-center`,
 	container_icons: `hidden md:flex `,

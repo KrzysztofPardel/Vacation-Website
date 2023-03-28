@@ -3,11 +3,12 @@ import manandgiraffe from '../assets/manandgiraffe.jpg'
 
 const style = {
 	container: `w-full h-auto relative`,
-	container_image: `w-[100vw] md:w-[70vw] grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4`,
-	container_all: `flex flex-col items-center md:flex-row`,
-	image: `w-full h-full object-cover`,
+
+	container_all: `flex flex-col items-center lg:flex-row`,
+	container_image: `w-[100vw] lg:w-[70vw]`,
+	image: `w-[100%] h-full lg:object-cover`,
 	overlay: `absolute w-full h-full top-0 left-0 bg-gray-900/25`,
-	container_small: `w-[80vw] md:w-[30vw] h-auto flex flex-col justify-center text-center p-5 bg-white`,
+	container_small: `w-[80vw] md:w-[60vw] lg:w-[30vw] h-auto flex flex-col justify-center text-center p-5 bg-white`,
 	h1: `py-1 text-black`,
 	p: `italic text-slate-400 drop-shadow-2xl contrast-100 mr-1 text-5xl`,
 	description: `py-2 text-black text-justify text-xl`,
