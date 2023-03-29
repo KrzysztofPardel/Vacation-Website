@@ -6,7 +6,7 @@ import { db } from '/src/firebase'
 import { query, collection, onSnapshot, updateDoc, doc, addDoc, deleteDoc } from 'firebase/firestore'
 
 const style = {
-	container: `bg-slate-100 w-[20rem] md:w-[40rem] rounded-md shadow-sl p-4`,
+	container: `bg-slate-100 w-[20rem] md:w-[30rem] rounded-md shadow-sl p-4`,
 	heading: `text-3xl font-bold text-center text-gray-800 p-2`,
 	form: `flex`,
 	input: `border p-1 w-[76vw] h-[3rem] text-xl`,
