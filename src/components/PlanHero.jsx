@@ -10,7 +10,7 @@ const style = {
 	p: `italic text-slate-400 drop-shadow-2xl contrast-100 inline text-4xl md:text-5xl`,
 	description: `py-2 text-black text-justify text-base md:text-2xl`,
 }
-const WhyUsHero = () => {
+const PlanHero = () => {
 	return (
 		<>
 			<div className={style.container}>
@@ -34,4 +34,4 @@ const WhyUsHero = () => {
 	)
 }
 
-export default WhyUsHero
+export default PlanHero

@@ -9,10 +9,10 @@ const style = {
 	overlay: `absolute w-full h-full top-0 left-0 bg-gray-900/25`,
 	container_small: `w-[80vw] md:w-[60vw] lg:w-[30vw] h-auto flex flex-col justify-center text-center p-5 bg-white`,
 	h1: `py-1 text-black`,
-	p: `italic text-slate-400 drop-shadow-2xl contrast-100 mr-1 inline text-5xl`,
+	p: `italic text-slate-400 drop-shadow-2xl contrast-100 mr-1 inline text-4xl`,
 	description: `py-2 text-black text-justify text-xl`,
 }
-const WhyUsOurTeam = () => {
+const PlanWhyWait = () => {
 	return (
 		<>
 			<div className={style.container}>
@@ -27,8 +27,8 @@ const WhyUsOurTeam = () => {
 						<span className={style.description}> Start planning your dream vacation with us today.</span>
 						<span className={style.description}>
 							{' '}
-							<b className=''>First of all</b>, think about everything you need to plan. We have some questions that
-							will help you think though it.{' '}
+							<b className=''>First of all</b>, think about everything you need to plan. We have prepared a detailed
+							list of questions that will help you think though it all.{' '}
 						</span>
 					</div>
 				</div>
@@ -37,4 +37,4 @@ const WhyUsOurTeam = () => {
 	)
 }
 
-export default WhyUsOurTeam
+export default PlanWhyWait

@@ -1,20 +1,16 @@
 import React, { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
 import '/src/scss/TakeList.scss'
 import Todo from '/src/components/Todo.jsx'
-import { GiWrappingStar } from 'react-icons/gi'
 import { AiOutlinePlus, AiOutlineClose } from 'react-icons/ai'
 import { db } from '/src/firebase'
 import { query, collection, onSnapshot, updateDoc, doc, addDoc, deleteDoc } from 'firebase/firestore'
-import keywest from '../assets/keywest.jpg'
 
 const style = {
-	bg: `h-screen w-screen p-4  bg-fixed bg-gradient-to-r from-[#5651e5] to-[#709dff]`,
-	container: `bg-slate-100 max-w-[500px] w-full m-auto rounded-md shadow-sl p-4`,
+	container: `bg-slate-100 w-[20rem] md:w-[40rem] rounded-md shadow-sl p-4`,
 	heading: `text-3xl font-bold text-center text-gray-800 p-2`,
-	form: `flex align-items`,
-	input: `border p-2 w-[76vw] h-[8vh] text-xl`,
-	button: `border flex justify-center items-center p-2 w-[10vw] h-[8vh] ml-2 bg-blue-500 text-slate-100`,
+	form: `flex`,
+	input: `border p-1 w-[76vw] h-[3rem] text-xl`,
+	button: `border flex justify-center items-center p-2 w-[10vw] h-[3rem] ml-2 bg-blue-500 text-slate-100`,
 	count: `text-center p-2`,
 }
 
@@ -63,14 +59,14 @@ const TakeList = () => {
 	return (
 		<div className={style.bg} style={{ backgroundImage: 'keywest' }}>
 			<div className={style.container}>
-				<h3 className={style.heading}>Take List</h3>
+				<h3 className={style.heading}>Important</h3>
 				<form onSubmit={createTodo} className={style.form}>
 					<input
 						className={style.input}
 						type='text'
 						value={input}
 						onChange={e => setInput(e.target.value)}
-						placeholder='I want to take...'
+						placeholder='I do not want to forget about...'
 					/>
 					<button className={style.button}>
 						<AiOutlinePlus size={30} />
