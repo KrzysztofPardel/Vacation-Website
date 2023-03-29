@@ -5,29 +5,29 @@ import { SiAmericanexpress } from 'react-icons/si'
 
 const style = {
 	// background: `-z-10 absolute w-[100vw] h-[100vh] opacity-40 mt-[9rem] `,
-	background: `-z-10 absolute w-[100vw] h-[50rem] opacity-40 `,
+	background: `object-cover -z-10 absolute w-[100vw] h-[60rem] md:h-[55rem] opacity-40 `,
 	// container_all_: `flex w-[100vw] h-[100vh] justify-between items-center p-20`,
-	container_all_: `flex w-[100vw] h-[45rem] justify-between items-center p-5 md:p-15 lg:p-20 mt-[1rem]`,
-	container_window: `h-[45rem] -md:h-[80rem] lg:h-[35rem] w-[55rem] md:w-[55rem] lg:w-[70rem] xl:w-[60rem] flex flex-col lg:flex-row justify-center items-center mx-auto p-10 bg-slate-800/70 rounded-3xl`,
+	container_all_: `flex w-[100vw] h-[60rem] md:h-[55rem] justify-between items-center p-5 md:p-15 lg:p-20 mt-[1rem]`,
+	container_window: `h-[90%] -md:h-[50rem] lg:h-[35rem] w-[20rem] sm:w-[25rem] md:w-[35rem] lg:w-[70rem] xl:w-[60rem] flex flex-col lg:flex-row justify-center items-center mx-auto p-10 bg-slate-800/70 rounded-3xl`,
 	container_leftSide: `h-[10-rem] md:h-[15-rem] flex flex-col items-center`,
 	header_h1: `font-thin py-1 text-white`,
 	subheader_h3: `text-white `,
-	container_booked: `h-[10rem] md:h-[10rem] w-[20rem] bg-white rounded-lg`,
+	container_booked: `h-[10rem] md:h-[10rem] lg:h-[25rem] w-[15rem] sm:w-[25rem] bg-white rounded-lg`,
 	line: `hidden lg:block h-[28rem] w-[0.1rem] bg-black m-[1rem]`,
 	container_rightSide: `flex flex-col items-center w-[100%]`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-white`,
-	icons_container: `flex justify-between text-white w-[10rem]`,
+
+	container_icons: `flex justify-center gap-[5%] text-white w-[100%]`,
 	container_small: `flex justify-center flex-col py-1 w-[15rem]`,
 	container_top: `flex justify-evenly items-center`,
-	input_container: `flex justify-start gap-[5%]`,
+	input_container: `flex flex-col md:flex-row justify-center lg:justify-start gap-[1%] md:gap-[5%]`,
 	label: `py-2 font-medium text-white`,
-	inputs: `border p-2 w-[12rem] rounded-lg`,
+	inputs: `border p-2 w-[15rem] md:w-[12rem] md:w-[15rem] rounded-lg`,
 	input_cardNUmber: `p-2 flex w-[90%] rounded-lg`,
-	input_conteiner_price: `flex w-[90%] rounded-lg`,
 	input_small: `border p-2 w-[5rem] rounded-lg`,
 	button: `border border-blue-500 bg-blue-600 hover:bg-blue-900 w-[7rem] p-2 my-2 text-white`,
-	button_icon: `border text-3xl md:text-6xl h-[100%] md:h-[100%] lg:h-[100%] w-[100%] md:w-[100%] lg:w-[100%] p-0 md:p-2 lg:p-2 xl:p-3`,
-	divforbutton: `flex justify-center mt-[5rem]`,
+	button_icon: `border text-5xl md:text-6xl h-[100%] md:h-[100%] lg:h-[100%] w-[100%] md:w-[100%] lg:w-[100%] p-1 md:p-2 lg:p-2 xl:p-3`,
+	divforbutton: `flex justify-center mt-[1rem] md:mt-[5rem]`,
 }
 const AvailabilitiesPay = () => {
 	const handleSubmit = e => {
@@ -47,7 +47,7 @@ const AvailabilitiesPay = () => {
 						<div className={style.line}></div>
 						<div className={style.container_rightSide}>
 							<h1 className={style.header_left}>Invoice</h1>
-							<div className={style.icons_container}>
+							<div className={style.container_icons}>
 								<button className={style.button_icon}>
 									<FaCcMastercard />
 								</button>
@@ -65,7 +65,7 @@ const AvailabilitiesPay = () => {
 								<div className={style.input_container}>
 									<div className={style.container_small}>
 										<label className={style.label}>Card number</label>
-										<input className={style.input_cardNUmber} type='number' placeholder='1234 5678 9012 3456' />
+										<input className={style.inputs} type='number' placeholder='1234 5678 9012 3456' />
 									</div>
 									<div className={style.container_small}>
 										<label className={style.label}>Name on the card</label>
