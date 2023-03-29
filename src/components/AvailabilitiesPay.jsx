@@ -4,17 +4,19 @@ import { FaCcMastercard, FaCcVisa, FaCcJcb } from 'react-icons/fa'
 import { SiAmericanexpress } from 'react-icons/si'
 
 const style = {
-	background: `-z-10 absolute w-[100vw] h-[100vh] opacity-40 mt-[3em] `,
-	container_all_: `flex w-[100vw] h-[100vh] justify-between items-center p-20`,
-	container_window: `h-[35rem] -md:h-[60rem] w-[50rem] flex flex-row justify-center mx-auto m-10 -mb-[0.5rem] p-10 bg-slate-800/70 rounded-3xl`,
-	container_leftSide: `flex flex-col items-center`,
+	// background: `-z-10 absolute w-[100vw] h-[100vh] opacity-40 mt-[9rem] `,
+	background: `-z-10 absolute w-[100vw] h-[50rem] opacity-40 `,
+	// container_all_: `flex w-[100vw] h-[100vh] justify-between items-center p-20`,
+	container_all_: `flex w-[100vw] h-[45rem] justify-between items-center p-5 md:p-15 lg:p-20 mt-[1rem]`,
+	container_window: `h-[45rem] -md:h-[80rem] lg:h-[35rem] w-[55rem] md:w-[55rem] lg:w-[70rem] xl:w-[60rem] flex flex-col lg:flex-row justify-center items-center mx-auto p-10 bg-slate-800/70 rounded-3xl`,
+	container_leftSide: `h-[10-rem] md:h-[15-rem] flex flex-col items-center`,
 	header_h1: `font-thin py-1 text-white`,
 	subheader_h3: `text-white `,
-	container_booked: `h-[25rem] md:h-[20rem] w-[15rem] bg-white rounded-lg`,
-	line: `h-[28rem] w-[0.1rem] bg-black m-[1rem]`,
-	container_rightSide: `w-[60%]`,
+	container_booked: `h-[10rem] md:h-[10rem] w-[20rem] bg-white rounded-lg`,
+	line: `hidden lg:block h-[28rem] w-[0.1rem] bg-black m-[1rem]`,
+	container_rightSide: `flex flex-col items-center w-[100%]`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-white`,
-	icons_container: `flex justify-between text-white`,
+	icons_container: `flex justify-between text-white w-[10rem]`,
 	container_small: `flex justify-center flex-col py-1 w-[15rem]`,
 	container_top: `flex justify-evenly items-center`,
 	input_container: `flex justify-start gap-[5%]`,
@@ -22,8 +24,9 @@ const style = {
 	inputs: `border p-2 w-[12rem] rounded-lg`,
 	input_cardNUmber: `p-2 flex w-[90%] rounded-lg`,
 	input_conteiner_price: `flex w-[90%] rounded-lg`,
-	input_small: `border p-2 w-[5rem] rounded-lg `,
+	input_small: `border p-2 w-[5rem] rounded-lg`,
 	button: `border border-blue-500 bg-blue-600 hover:bg-blue-900 w-[7rem] p-2 my-2 text-white`,
+	button_icon: `border text-3xl md:text-6xl h-[100%] md:h-[100%] lg:h-[100%] w-[100%] md:w-[100%] lg:w-[100%] p-0 md:p-2 lg:p-2 xl:p-3`,
 	divforbutton: `flex justify-center mt-[5rem]`,
 }
 const AvailabilitiesPay = () => {
@@ -45,17 +48,17 @@ const AvailabilitiesPay = () => {
 						<div className={style.container_rightSide}>
 							<h1 className={style.header_left}>Invoice</h1>
 							<div className={style.icons_container}>
-								<button className=''>
-									<FaCcMastercard size={75} />
+								<button className={style.button_icon}>
+									<FaCcMastercard />
 								</button>
-								<button className=''>
-									<FaCcVisa size={75} />
+								<button className={style.button_icon}>
+									<FaCcVisa />
 								</button>
-								<button className=''>
-									<FaCcJcb size={75} />
+								<button className={style.button_icon}>
+									<FaCcJcb />
 								</button>
-								<button className=''>
-									<SiAmericanexpress size={75} />
+								<button className={style.button_icon}>
+									<SiAmericanexpress />
 								</button>
 							</div>
 							<form>

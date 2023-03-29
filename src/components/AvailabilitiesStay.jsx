@@ -2,17 +2,17 @@ import React from 'react'
 import accommodation from '../assets/accommodation.jpg'
 
 const style = {
-	background: `-z-10 absolute w-[100vw] h-[100vh] opacity-40 mt-[1em]`,
-	container_all_: `flex w-[100vw] h-[100vh] justify-between items-center p-20`,
-	container_left_: `h-[75vh] w-[60vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
+	background: `-z-10 absolute w-[100vw] h-[55rem] opacity-40`,
+	container_all_: `flex justify-between items-center h-[55rem] p-5 md:p-10 lg:p-20 mt-[1rem]`,
+	container_left_: `h- lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-orange-800`,
-	container_small: `flex justify-center flex-col py-2`,
-	container_top: `flex justify-evenly items-center`,
-	input_container: `flex justify-start gap-[5%]`,
+	container_small: `flex justify-center flex-col py-2 w-[100%]`,
+	container_top: `flex justify-evenly items-center w-[100%]`,
+	input_container: `flex justify-start gap-[5%] w-[100%]`,
 	label: `py-2 font-medium`,
-	inputs: `border p-3 w-[15em] rounded-lg`,
-	input_conteiner_price: `p- flex w-[90%] rounded-lg`,
-	input_return: `border p-3 w-[200%] rounded-lg`,
+	inputs: `border p-2 md:p-3 w-[10rem] md:w-[15rem] lg:w-[17rem] xl:w-[20rem] rounded-lg`,
+	input_conteiner_price: `flex w-[90%] rounded-lg`,
+	input_return: `border p-2 md:p-3 w-[10rem] md:w-[15rem] lg:w-[17rem] xl:w-[20rem] rounded-lg`,
 	button: `border border-blue-500 bg-blue-600 hover:bg-blue-900 w-[7em] p-2 my-2 text-white`,
 	select: `border rounded-lg p-2 text-center ml-[0.5em]`,
 	divforbutton: `flex justify-center mt-5`,
@@ -100,7 +100,7 @@ const AvailabilitiesStay = () => {
 							<div className={style.input_container}>
 								<div className={style.container_small}>
 									<label className={style.label}>Min.price</label>
-									<input className={style.inputs} type='number'placeholder='ex. 25' />
+									<input className={style.inputs} type='number' placeholder='ex. 25' />
 								</div>
 								<div className={style.container_small}>
 									<label className={style.label}>Max.price</label>

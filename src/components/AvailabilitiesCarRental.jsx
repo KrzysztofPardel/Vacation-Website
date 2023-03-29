@@ -1,16 +1,18 @@
 import React from 'react'
 import carrental from '../assets/carrental.jpg'
-
 const style = {
-	background: `-z-10 absolute w-[100vw] h-[100vh] opacity-40 mt-[2em]`,
-	container_all_: `flex w-[100vw] h-[100vh] justify-between items-center p-20`,
-	container_left_: `h-[65vh] w-[60vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
+	// background: `mt-[2em] -z-10 absolute md:w-[100vw] lg:w-[100vw] md:h-[70vh] lg:h-[100vh] opacity-40 mt-[2em] lg:mt-[2em]`,
+	background: `-z-10 absolute w-[100vw] h-[50rem] opacity-40`,
+	// container_all_: `flex justify-between items-center p-5 md:p-10 lg:p-20 mt-[1em]`,
+	container_all_: `flex w-[100vw] h-[50rem] justify-between items-center p-5 md:p-15 lg:p-20 mt-[1rem]`,
+	// container_left_: `lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
+	container_left_: `lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto p-10 bg-slate-200/70 rounded-3xl`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-grey-500`,
 	container_small: `flex justify-center flex-col py-2`,
 	container_top: `flex justify-evenly items-center`,
 	input_container: `flex justify-around`,
 	label: `py-2 font-medium`,
-	inputs: `border p-3 w-[20em] rounded-lg`,
+	inputs: `border p-2 md:p-3 w-[10rem] md:w-[15rem] lg:w-[17rem] xl:w-[20rem] rounded-lg`,
 	input_age: `border p-3 w-[4em] h-[2.5em] rounded-md ml-[0.5em]`,
 	button: `border border-blue-500 bg-blue-600 hover:bg-blue-900 w-[7em] p-2 my-2 text-white`,
 	select: `border rounded-lg p-2 text-center ml-[0.5em]`,
@@ -19,7 +21,7 @@ const style = {
 const AvailabilitiesCarRental = () => {
 	return (
 		<>
-			<div className='w-scren h-screen'>
+			<div className=''>
 				<img src={carrental} alt='' className={style.background} />
 				<div className={style.container_all_}>
 					<div className={style.container_left_}>
