@@ -13,7 +13,7 @@ const style = {
 	h3: `mb-[1em] mt-[0.25em] underline decoration-indigo-500 text-white text-2xl md:text-3xl lg:text-4xl italic text-slate-100`,
 	container_for_small: `flex justify-center items-center`,
 	small_container: `flex flex-col justify-center items-center`,
-	button_icon: `border text-3xl md:text-5xl h-[100%] md:h-[100%] lg:h-[100%] p-0 md:p-1 lg:p-4`,
+	button_icon: `border text-3xl md:text-5xl h-[100%] md:h-[100%] lg:h-[100%] p-0 md:p-1 lg:p-2`,
 	span: `font-bold text-white drop-shadow-2xl`,
 	arrow_image: `hidden sm:block md:block w-[3rem] sm:w-[2rem] md:w-[3rem] lg:w-[6rem] -mb-0 md:-mb-10 lg:-mb-16`,
 	// description: `py-2 text-black text-justify text-2xl`,

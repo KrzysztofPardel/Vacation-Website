@@ -4,7 +4,7 @@ import manandgiraffe from '../assets/manandgiraffe.jpg'
 const style = {
 	container: `w-full h-auto relative`,
 
-	container_all: `flex flex-col items-center lg:flex-row`,
+	container_all: `flex flex-col items-center lg:flex-row-reverse`,
 	container_image: `w-[100vw] lg:w-[70vw]`,
 	image: `w-[100%] h-full lg:object-cover`,
 	overlay: `absolute w-full h-full top-0 left-0 bg-gray-900/25`,

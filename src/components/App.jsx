@@ -11,6 +11,7 @@ import TakeList from '/src/components/ToTakeList.jsx'
 import WeatherApp from '/src/components/WeatherApp.jsx'
 import { AuthContextProvider } from '../context/AuthContext'
 import Availabilities from './Availabilities'
+import Plan from './Plan'
 const App = () => {
 	return (
 		<div>
@@ -29,6 +30,7 @@ const App = () => {
 					{/* <Route path='/home' element={<Home />} /> */}
 					<Route path='/home/whyus' element={<WhyUs />} />
 					<Route path='/home/availabilities' element={<Availabilities />} />
+					<Route path='/home/plan' element={<Plan />} />
 					<Route path='/home/takelist' element={<TakeList />} />
 					<Route path='/home/weatherapp' element={<WeatherApp />} />
 				</Routes>
