@@ -12,7 +12,7 @@ const style = {
 	container_leftSide: `h-[10-rem] md:h-[15-rem] flex flex-col items-center`,
 	header_h1: `font-thin py-1 text-white`,
 	subheader_h3: `text-white `,
-	container_booked: `h-[10rem] md:h-[10rem] lg:h-[25rem] w-[15rem] sm:w-[25rem] bg-white rounded-lg`,
+	container_booked: `h-[10rem] md:h-[10rem] lg:h-[25rem] w-[15rem] sm:w-[20rem] md:w-[25rem] lg:w-[20rem] bg-white rounded-lg`,
 	line: `hidden lg:block h-[28rem] w-[0.1rem] bg-black m-[1rem]`,
 	container_rightSide: `flex flex-col items-center w-[100%]`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-white`,
