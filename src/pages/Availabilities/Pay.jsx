@@ -4,9 +4,7 @@ import { FaCcMastercard, FaCcVisa, FaCcJcb } from 'react-icons/fa'
 import { SiAmericanexpress } from 'react-icons/si'
 
 const style = {
-	// background: `-z-10 absolute w-[100vw] h-[100vh] opacity-40 mt-[9rem] `,
 	background: `object-cover -z-10 absolute w-[100vw] h-[60rem] md:h-[55rem] opacity-40 `,
-	// container_all_: `flex w-[100vw] h-[100vh] justify-between items-center p-20`,
 	container_all_: `flex w-[100vw] h-[60rem] md:h-[55rem] justify-between items-center p-5 md:p-15 lg:p-20 mt-[1rem]`,
 	container_window: `h-[90%] -md:h-[50rem] lg:h-[35rem] w-[20rem] sm:w-[25rem] md:w-[35rem] lg:w-[70rem] xl:w-[60rem] flex flex-col lg:flex-row justify-center items-center mx-auto p-10 bg-slate-800/70 rounded-3xl`,
 	container_leftSide: `h-[10-rem] md:h-[15-rem] flex flex-col items-center`,
@@ -16,7 +14,6 @@ const style = {
 	line: `hidden lg:block h-[28rem] w-[0.1rem] bg-black m-[1rem]`,
 	container_rightSide: `flex flex-col items-center w-[100%]`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-white`,
-
 	container_icons: `flex justify-center gap-[5%] text-white w-[100%]`,
 	container_small: `flex justify-center flex-col py-1 w-[15rem]`,
 	container_top: `flex justify-evenly items-center`,
@@ -29,7 +26,7 @@ const style = {
 	button_icon: `border text-5xl md:text-6xl h-[100%] md:h-[100%] lg:h-[100%] w-[100%] md:w-[100%] lg:w-[100%] p-1 md:p-2 lg:p-2 xl:p-3`,
 	divforbutton: `flex justify-center mt-[1rem] md:mt-[5rem]`,
 }
-const AvailabilitiesPay = () => {
+const Pay = () => {
 	const handleSubmit = e => {
 		e.preventDefault()
 	}
@@ -95,4 +92,4 @@ const AvailabilitiesPay = () => {
 	)
 }
 
-export default AvailabilitiesPay
+export default Pay

@@ -13,9 +13,6 @@ const style = {
 	pages_link: `p-4 hover:bg-slate-100/30 rounded-full text-xs md:text-sm lg:text-lg text-center`,
 	container_icons: `hidden md:flex `,
 	p_icons: `mr-2 text-base text-xs md:text-sm lg:text-lg`,
-	icon_Person: `mr-2`,
-	icon_Search: `mr-2`,
-	icon_LogOut: `mr-2`,
 	mobile_Nav: `md:hidden z-10`,
 	mobile_NavShown: `absolute text-black left-0 top-0 w-full bg-gray-100/90 px-1 md:px-2 lg:px-4 py-7 flex flex-col`,
 	mobile_NavHidden: `absolute left-[-100%]`,
@@ -65,9 +62,9 @@ const Navbar = () => {
 			</ul>
 			<div className={style.container_icons}>
 				<p className={style.p_icons}>Welcome : {user && user.email}</p>
-				<BsPerson className={style.icon_Person} size={25} />
-				<BiSearch onClick={handleLogout} className={style.icon_Search} size={25} />
-				<AiOutlineLogout onClick={handleLogout} className={style.icon_LogOut} size={25} />
+				<BsPerson className='mr-2' size={25} />
+				<BiSearch onClick={handleLogout} className='mr-2' size={25} />
+				<AiOutlineLogout onClick={handleLogout} className='mr-2' size={25} />
 			</div>
 			{/* Hamburger */}
 			<div onClick={handleNav} className={style.mobile_Nav}>

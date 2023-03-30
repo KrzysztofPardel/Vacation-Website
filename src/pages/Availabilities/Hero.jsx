@@ -3,7 +3,6 @@ import aerialbeach from '../../assets/aerialbeach.jpg'
 import { TbCircleNumber1, TbCircleNumber2, TbCircleNumber3, TbCircleNumber4, TbCircleNumber5 } from 'react-icons/tb'
 import arrow from '../../assets/arrow.png'
 
-// TbHexagonNumber1
 const style = {
 	container: `w-full h-screen relative`,
 	image: `w-full h-full object-cover`,
@@ -16,9 +15,8 @@ const style = {
 	button_icon: `border text-3xl md:text-5xl h-[100%] md:h-[100%] lg:h-[100%] p-0 md:p-1 lg:p-2`,
 	span: `font-bold text-white drop-shadow-2xl`,
 	arrow_image: `hidden sm:block md:block w-[3rem] sm:w-[2rem] md:w-[3rem] lg:w-[6rem] -mb-0 md:-mb-10 lg:-mb-16`,
-	// description: `py-2 text-black text-justify text-2xl`,
 }
-const AvailabilitiesHero = () => {
+const Hero = () => {
 	return (
 		<>
 			<div className={style.container}>
@@ -70,4 +68,4 @@ const AvailabilitiesHero = () => {
 	)
 }
 
-export default AvailabilitiesHero
+export default Hero

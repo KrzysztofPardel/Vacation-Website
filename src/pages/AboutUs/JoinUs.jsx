@@ -2,21 +2,21 @@ import React, { useState, useEffect } from 'react'
 import baloons from '../../assets/baloons.jpg'
 
 const style = {
-	container: `w-full h-[50em] relative mt-[1em] static`,
+	bg: `w-full h-[50em] relative mt-[1em] static`,
 	image: `w-full h-full object-cover`,
 	overlay: `absolute w-full h-full top-0 left-0 bg-gray-900/25`,
-	container_small: `absolute bottom-40 md:bottom-20 right-5 md:right-20 w-[22rem] md:w-[35rem] h-[20em] flex flex-col justify-center text-center p-3 md:p-5 bg-slate-100`,
+	text_container: `absolute bottom-40 md:bottom-20 right-5 md:right-20 w-[22rem] md:w-[35rem] h-[20em] flex flex-col justify-center text-center p-3 md:p-5 bg-slate-100`,
 	h1: `py-1 text-black text-3xl md:text-4xl`,
 	p: `italic text-slate-400 drop-shadow-2xl contrast-100 inline text-4xl md:text-5xl`,
 	description: `py-2 text-black text-justify text-base md:text-2xl`,
 }
-const WhyUsJoinUs = () => {
+const JoinUs = () => {
 	return (
 		<>
-			<div className={style.container}>
+			<div className={style.bg}>
 				<img src={baloons} alt='' className={style.image} />
 				<div className={style.overlay}></div>
-				<div className={style.container_small}>
+				<div className={style.text_container}>
 					<h1 className={style.h1}>
 						<p className={style.p}>Join us</p> on a journey of discovery
 					</h1>
@@ -31,4 +31,4 @@ const WhyUsJoinUs = () => {
 	)
 }
 
-export default WhyUsJoinUs
+export default JoinUs

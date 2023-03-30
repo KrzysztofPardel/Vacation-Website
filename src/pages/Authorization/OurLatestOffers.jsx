@@ -5,7 +5,6 @@ import imageone from '../../assets/imageone.jpg'
 import imagethree from '../../assets/imagethree.jpg'
 import imagefive from '../../assets/imagefive.jpg'
 
-// import { images } from './assets'
 const style = {
 	container: `w-full  flex justify-center items-center`,
 	arrow_left: `absolute top:[65%] -left-12 text-white cursor-pointer  bg-[#709dff] text-xl md:text-3xl`,
@@ -55,26 +54,4 @@ const OurLatestOffers = () => {
 		</>
 	)
 }
-// const [count, setCount] = useState(0)
-// const [mouseOver, setMouseOver] = useState('')
-
-// useEffect(() => {
-// 	if (mouseOver) {
-// 		const timer = setInterval(() => {
-// 			setCount(prevCount => (prevCount + 1) % images.length)
-// 		}, 1000)
-// 		return () => clearInterval(timer)
-// 	} else {
-// 		setCount(0)
-// 	}
-// }, [mouseOver])
-
-// return (
-// 	<div className=''>
-// 		<div className='' onMouseOver={() => setMouseOver(true)} onMouseOut={() => setMouseOver(false)}>
-// 			<img src={images[count].source} alt={images.name} />
-// 			<p>count is {count}</p>
-// 		</div>
-// 	</div>
-// )
 export default OurLatestOffers

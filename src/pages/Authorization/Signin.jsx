@@ -1,18 +1,16 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-// import '../styles/Others.scss'
 import OurLatestOffers from './OurLatestOffers'
 import island from '../../assets/island.jpg'
 import palmSwing from '../../assets/palmSwing.jpg'
 import { UserAuth } from '../../context/AuthContext'
 
 const style = {
-	background: `hidden lg:block -z-10 absolute bg-fixed w-[80rem] md:w-[120rem] h-[70rem] md:h-[55rem] opacity-40`,
-	background_mobile: `lg:hidden -z-10 absolute sm:bg-fixed w-[80rem] lg:w-[100rem] h-[70rem] md:h-[90rem] opacity-40`,
-	container_all_: `flex flex-col-reverse lg:flex-row justify-center md:justify-between items-center p-5 md:p-15 lg:p-20 `,
+	bg: `hidden lg:block -z-10 absolute bg-fixed w-[80rem] md:w-[120rem] h-[70rem] md:h-[55rem] opacity-40`,
+	bg_mobile: `lg:hidden -z-10 absolute sm:bg-fixed w-[80rem] lg:w-[100rem] h-[70rem] md:h-[90rem] opacity-40`,
+	container: `flex flex-col-reverse lg:flex-row justify-center md:justify-between items-center p-5 md:p-15 lg:p-20 `,
 	line: `hidden lg:block w-[0.1em] h-[35rem] border-right bg-slate-400 md:mx-0 lg:mx-5 xl:mx-10`,
-	container_left_: `h-[55vh] md:h-[60vh] lg:h-[35rem] w-[90vw] md:w-[80vw] md:m-10 md:mx-auto mb-[3rem] p-10 bg-slate-200/70 rounded-3xl`,
-	container_right_: `flex flex-col h-[55vh] md:h-[60vh] lg:h-[35rem] w-[90vw] md:w-[80vw] mx-auto p-10 bg-slate-200/70 rounded-3xl text-center mb-[3rem] md:mb-[0rem]`,
+	container_left: `h-[55vh] md:h-[60vh] lg:h-[35rem] w-[90vw] md:w-[80vw] md:m-10 md:mx-auto mb-[3rem] p-10 bg-slate-200/70 rounded-3xl`,
 	header_left: `text-xl md:text-2xl lg:text-3xl font-bold py-2`,
 	subheader_left: `text-base md:text-base lg:text-xl p-2 md:p-0`,
 	sigup_link: `underline`,
@@ -21,6 +19,7 @@ const style = {
 	label: `py-2 font-medium md:text-sm lg:text-base`,
 	inputs: `border p-3 text-lg rounded-md md:text-xl lg:text-2xl`,
 	button: `border border-blue-500 bg-blue-600 hover:bg-blue-500 w-full p-4 my-2 text-white text-sm md:text-base lg:text-lg`,
+	container_right: `flex flex-col h-[55vh] md:h-[60vh] lg:h-[35rem] w-[90vw] md:w-[80vw] mx-auto p-10 bg-slate-200/70 rounded-3xl text-center mb-[3rem] md:mb-[0rem]`,
 	header_right: `text-xl md:text-3xl  font-bold py-2 `,
 	p_quote: `font-thin text-center py-2 italic text-lg md:text-xl`,
 	p_quoteAuthor: `text-center text-base`,
@@ -51,10 +50,10 @@ const Signin = () => {
 	return (
 		<>
 			<div className=''>
-				<img src={island} alt='' className={style.background} />
-				<img src={palmSwing} alt='' className={style.background_mobile} />
-				<div className={style.container_all_}>
-					<div className={style.container_left_}>
+				<img src={island} alt='' className={style.bg} />
+				<img src={palmSwing} alt='' className={style.bg_mobile} />
+				<div className={style.container}>
+					<div className={style.container_left}>
 						<div>
 							<h1 className={style.header_left}>Sign in to your account</h1>
 							<p className={style.subheader_left}>
@@ -77,7 +76,7 @@ const Signin = () => {
 						</form>
 					</div>
 					<div className={style.line}></div>
-					<div className={style.container_right_}>
+					<div className={style.container_right}>
 						<div>
 							<h1 className={style.header_right}>Why not allow yourself some vacation?</h1>
 							<p className={style.p_quote}>"Nothing is more expensive than a missed opportunity"</p>

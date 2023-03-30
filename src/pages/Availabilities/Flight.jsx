@@ -1,5 +1,4 @@
 import React from 'react'
-// import '../styles/Others.scss'
 import airport from '../../assets/airport.jpg'
 
 const style = {
@@ -18,7 +17,7 @@ const style = {
 	divforbutton: `flex justify-center mt-5`,
 }
 
-const AvailabilitiesPlane = () => {
+const Flight = () => {
 	return (
 		<>
 			<div className=''>
@@ -82,4 +81,4 @@ const AvailabilitiesPlane = () => {
 	)
 }
 
-export default AvailabilitiesPlane
+export default Flight

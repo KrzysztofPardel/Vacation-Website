@@ -1,11 +1,8 @@
 import React from 'react'
 import carrental from '../../assets/carrental.jpg'
 const style = {
-	// background: `mt-[2em] -z-10 absolute md:w-[100vw] lg:w-[100vw] md:h-[70vh] lg:h-[100vh] opacity-40 mt-[2em] lg:mt-[2em]`,
 	background: `object-cover -z-10 absolute w-[100vw] h-[55rem] opacity-40`,
-	// container_all_: `flex justify-between items-center p-5 md:p-10 lg:p-20 mt-[1em]`,
 	container_all_: `flex w-[100vw] h-[55rem] justify-between items-center p-5 md:p-15 lg:p-20 mt-[1rem]`,
-	// container_left_: `lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
 	container_left_: `h-[45rem] md:h-[35rem] lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto p-10 bg-slate-200/70 rounded-3xl`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-grey-500`,
 	container_small: `flex-col py-2`,
@@ -18,7 +15,7 @@ const style = {
 	select: `border rounded-lg p-2 text-center ml-[0.5em]`,
 	divforbutton: `flex justify-center mt-5`,
 }
-const AvailabilitiesCarRental = () => {
+const CarRental = () => {
 	return (
 		<>
 			<div className=''>
@@ -91,4 +88,4 @@ const AvailabilitiesCarRental = () => {
 	)
 }
 
-export default AvailabilitiesCarRental
+export default CarRental
