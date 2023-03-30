@@ -6,7 +6,7 @@ const style = {
 	// container_all_: `flex justify-between items-center p-5 md:p-10 lg:p-20 mt-[1em]`,
 	container_all_: `flex w-[100vw] h-[55rem] justify-between items-center p-5 md:p-15 lg:p-20 mt-[1rem]`,
 	// container_left_: `lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
-	container_left_: `h-[45rem] md:h-[55rem] lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto p-10 bg-slate-200/70 rounded-3xl`,
+	container_left_: `h-[45rem] md:h-[35rem] lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto p-10 bg-slate-200/70 rounded-3xl`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-grey-500`,
 	container_small: `flex-col py-2`,
 	container_top: `flex flex-col md:flex-row justify-evenly items-center`,

@@ -11,8 +11,10 @@ const style = {
 	background_mobile: `lg:hidden -z-10 absolute sm:bg-fixed w-[70rem] md:w-[100rem] h-[75rem] md:h-[75rem] opacity-40`,
 	container_all: `flex flex-col-reverse lg:flex-row justify-center md:justify-between items-center p-5 md:p-15 lg:p-20 `,
 	container_left: `h-[50vh] md:h-[55vh] lg:h-[35rem] xl:h-[30rem] w-[90vw] m-10 md:mt-[2rem] lg:mr-2 p-10 bg-slate-200/70 rounded-3xl`,
+	line: `hidden lg:block w-[0.1em] h-[30rem] border-right bg-slate-400 md:mx-0 lg:mx-5 xl:mx-10`,
 	container_right: `h-[60vh] md:h-[55vh] lg:h-[35rem] xl:h-[30rem] w-[90vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl text-center`,
-	header_left: `text-2xl md:text-3xl font-bold py-2`,
+	header_left: `text-xl md:text-2xl lg:text-3xl font-bold py-2`,
+	subheader_left: `text-base md:text-base lg:text-xl p-2 md:p-0`,
 	container_small: `flex flex-col py-2`,
 	label: `py-2 font-medium`,
 	input: `border p-3`,
@@ -52,7 +54,7 @@ const Signup = () => {
 					<div className={style.container_left}>
 						<div>
 							<h1 className={style.header_left}>Sign up for a free account</h1>
-							<p className='py-2'>
+							<p className={style.subheader_left}>
 								Already have an account?
 								<Link to='/' className='underline ml-1'>
 									Sign in.

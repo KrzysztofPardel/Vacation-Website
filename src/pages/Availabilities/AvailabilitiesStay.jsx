@@ -4,7 +4,7 @@ import accommodation from '../../assets/accommodation.jpg'
 const style = {
 	background: `object-cover -z-10 absolute w-[100vw] h-[55rem] md:h-[55rem] lg:h-[55rem] opacity-40`,
 	container_all_: `flex justify-between items-center h-[55rem] md:h-[55rem] p-5 md:p-10 lg:p-20 mt-[1rem]`,
-	container_left_: `h-[50rem] md:h-[55rem] lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
+	container_left_: `h-[50rem] md:h-[45rem] lg:h-[65vh] w-[80vw] md:w-[75vw] lg:w-[60vw] mx-auto m-10 p-10 bg-slate-200/70 rounded-3xl`,
 	header_left: `text-4xl font-bold py-2 flex justify-center text-orange-800`,
 	container_small: `flex flex-col py-2`,
 	container_top: `flex flex-col md:flex-row justify-evenly items-center w-[100%]`,
