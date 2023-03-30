@@ -1,9 +1,9 @@
 import React from 'react'
-import hydroplane from '../assets/hydroplane.jpg'
-import indianwoman from '../assets/indianwoman.jpg'
-import tent from '../assets/tent.jpg'
-import tropicalwooden from '../assets/tropicalwooden.jpg'
-import twoparrots from '../assets/twoparrots.jpg'
+import hydroplane from '../../assets/hydroplane.jpg'
+import indianwoman from '../../assets/indianwoman.jpg'
+import tent from '../../assets/tent.jpg'
+import tropicalwooden from '../../assets/tropicalwooden.jpg'
+import twoparrots from '../../assets/twoparrots.jpg'
 const style = {
 	container: `w-full h-auto relative`,
 	img_container: `w-[100vw] lg:w-[70vw] grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4`,

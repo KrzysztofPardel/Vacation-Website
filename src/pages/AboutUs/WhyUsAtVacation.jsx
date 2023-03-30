@@ -1,5 +1,5 @@
 import React from 'react'
-import manandgiraffe from '../assets/manandgiraffe.jpg'
+import manandgiraffe from '../../assets/manandgiraffe.jpg'
 
 const style = {
 	container: `w-full h-auto relative`,

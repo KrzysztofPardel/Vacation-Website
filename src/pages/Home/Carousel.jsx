@@ -1,7 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs'
-import ToTakeList from './ToTakeList'
-const style = {}
+const style = {
+	container: `max-w-[1240px] h-[10] mx-auto py-16 relative flex justify-center items-center`,
+	arrow_left: `absolute top-[50%] text-3xl text-white cursor-pointer left-20 bg-[#709dff]`,
+	arrow_right: `absolute top-[50%] text-3xl text-white cursor-pointer right-20 bg-[#709dff]`,
+	transition_left: `opacity-100 transition-duration: 550ms`,
+}
 const sliderData = [
 	{
 		url: 'https://images.pexels.com/photos/1005417/pexels-photo-1005417.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -54,17 +58,9 @@ const Carousel = () => {
 
 	return (
 		<>
-			<div className='max-w-[1240px] h-[10] mx-auto py-16 relative flex justify-center items-center'>
-				<BsArrowLeftSquareFill
-					onClick={prevSlide}
-					className='absolute top-[50%] text-3xl text-white cursor-pointer left-20 bg-[#709dff]'
-					loop
-				/>
-				<BsArrowRightSquareFill
-					onClick={nextSlide}
-					className='absolute top-[50%] text-3xl text-white cursor-pointer right-20 bg-[#709dff]'
-					loop
-				/>
+			<div className={style.container}>
+				<BsArrowLeftSquareFill onClick={prevSlide} className={style.arrow_left} loop />
+				<BsArrowRightSquareFill onClick={nextSlide} className={style.arrow_right} loop />
 				{sliderData.map((item, index) => (
 					<div
 						key={index}

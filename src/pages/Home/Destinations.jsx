@@ -1,9 +1,9 @@
 import React from 'react'
-import imageone from '../assets/imageone.jpg'
-import imagetwo from '../assets/imagetwo.jpg'
-import imagethree from '../assets/imagethree.jpg'
-import imagefour from '../assets/imagefour.jpg'
-import imagefive from '../assets/imagefive.jpg'
+import imageone from '../../assets/imageone.jpg'
+import imagetwo from '../../assets/imagetwo.jpg'
+import imagethree from '../../assets/imagethree.jpg'
+import imagefour from '../../assets/imagefour.jpg'
+import imagefive from '../../assets/imagefive.jpg'
 const style = {
 	container: `max-w-[1240px] mx-auto py-16 px-4 text-center`,
 	img_container: `grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4`,

@@ -1,5 +1,5 @@
 import React from 'react'
-import accommodation from '../assets/accommodation.jpg'
+import accommodation from '../../assets/accommodation.jpg'
 
 const style = {
 	background: `object-cover -z-10 absolute w-[100vw] h-[55rem] md:h-[55rem] lg:h-[55rem] opacity-40`,

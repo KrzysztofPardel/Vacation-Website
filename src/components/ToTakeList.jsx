@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import '/src/scss/TakeList.scss'
+import '/src/styles/TakeList.scss'
 import Todo from '/src/components/Todo.jsx'
-import { AiOutlinePlus, AiOutlineClose } from 'react-icons/ai'
+import { AiOutlinePlus } from 'react-icons/ai'
 import { db } from '/src/firebase'
 import { query, collection, onSnapshot, updateDoc, doc, addDoc, deleteDoc } from 'firebase/firestore'
 

@@ -1,8 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import '../scss/Others.scss'
-import OurLatestOffers from './OurLatestOffers'
-import questions from '../assets/questions.jpg'
+// import '../styles/Others.scss'
+import questions from '../../assets/questions.jpg'
 
 const style = {
 	background: `object-cover -z-10 absolute w-[100vw] h-[105rem] md:h-[80rem] lg:h-[95rem] opacity-40`,

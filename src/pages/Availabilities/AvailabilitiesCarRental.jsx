@@ -1,5 +1,5 @@
 import React from 'react'
-import carrental from '../assets/carrental.jpg'
+import carrental from '../../assets/carrental.jpg'
 const style = {
 	// background: `mt-[2em] -z-10 absolute md:w-[100vw] lg:w-[100vw] md:h-[70vh] lg:h-[100vh] opacity-40 mt-[2em] lg:mt-[2em]`,
 	background: `object-cover -z-10 absolute w-[100vw] h-[55rem] opacity-40`,

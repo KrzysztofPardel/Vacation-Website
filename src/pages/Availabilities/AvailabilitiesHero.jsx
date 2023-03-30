@@ -1,7 +1,7 @@
 import React from 'react'
-import aerialbeach from '../assets/aerialbeach.jpg'
+import aerialbeach from '../../assets/aerialbeach.jpg'
 import { TbCircleNumber1, TbCircleNumber2, TbCircleNumber3, TbCircleNumber4, TbCircleNumber5 } from 'react-icons/tb'
-import arrow from '../assets/arrow.png'
+import arrow from '../../assets/arrow.png'
 
 // TbHexagonNumber1
 const style = {

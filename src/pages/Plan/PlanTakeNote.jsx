@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../scss/Others.scss'
-import ToTakeList from './ToTakeList'
-import airport from '../assets/airport.jpg'
+// import '../styles/Others.scss'
+import ToTakeList from '../../components/ToTakeList'
+import airport from '../../assets/airport.jpg'
 
 const style = {
 	background: `object-cover -z-10 absolute w-[100vw] h-[55rem] md:h-[50rem] lg:h-[45rem] opacity-40`,

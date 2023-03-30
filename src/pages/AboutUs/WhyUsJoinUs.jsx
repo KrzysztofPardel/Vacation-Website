@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import baloons from '../assets/baloons.jpg'
+import baloons from '../../assets/baloons.jpg'
 
 const style = {
 	container: `w-full h-[50em] relative mt-[1em] static`,

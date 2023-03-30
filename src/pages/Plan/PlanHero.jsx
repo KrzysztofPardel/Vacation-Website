@@ -1,5 +1,5 @@
 import React from 'react'
-import Death_Valley_Hills from '../assets/Death_Valley_Hills.jpg'
+import worldmap from '../../assets/worldmap.jpg'
 
 const style = {
 	container: `w-full h-screen relative`,
@@ -10,21 +10,23 @@ const style = {
 	p: `italic text-slate-400 drop-shadow-2xl contrast-100 inline text-4xl md:text-5xl`,
 	description: `py-2 text-black text-justify text-base md:text-2xl`,
 }
-const WhyUsHero = () => {
+const PlanHero = () => {
 	return (
 		<>
 			<div className={style.container}>
-				<img src={Death_Valley_Hills} alt='' className={style.image} />
+				<img src={worldmap} alt='' className={style.image} />
 				<div className={style.overlay}></div>
 				<div className={style.container_small}>
 					<h1 className={style.h1}>
-						At <p className={style.p}>Vacation</p> we believe
+						<p className={style.p}>We believe</p>
 					</h1>
 					<span className={style.description}>
 						{' '}
-						that travel is not just a way to escape from the daily routine, but it's also an opportunity to enrich your
-						life, broaden your horizons, and create memories that will last a lifetime. Our goal is to help you plan
-						your dream vacation that perfectly matches your preferences, needs, and budget.
+						that every journey is an opportunity to create unforgettable memories. That's why we're passionate about
+						helping you plan the perfect trip, tailored to your unique interests and preferences. From breathtaking
+						natural wonders to vibrant cultural experiences, we'll help you discover the world in a way that suits you
+						best. With meticulous attention to detail and personalized service, our team is dedicated to ensuring that
+						every aspect of your trip is seamless and stress-free.
 					</span>
 				</div>
 			</div>
@@ -32,4 +34,4 @@ const WhyUsHero = () => {
 	)
 }
 
-export default WhyUsHero
+export default PlanHero

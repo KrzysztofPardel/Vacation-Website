@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import '../scss/Others.scss'
+// import '../styles/Others.scss'
 import OurLatestOffers from './OurLatestOffers'
-import island from '../assets/island.jpg'
-import palmSwing from '../assets/palmSwing.jpg'
-import { UserAuth } from '../context/AuthContext'
+import island from '../../assets/island.jpg'
+import palmSwing from '../../assets/palmSwing.jpg'
+import { UserAuth } from '../../context/AuthContext'
 
 const style = {
 	background: `hidden lg:block -z-10 absolute bg-fixed w-[80rem] md:w-[120rem] h-[70rem] md:h-[55rem] opacity-40`,

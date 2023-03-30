@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import payment from '../assets/payment.jpg'
+import payment from '../../assets/payment.jpg'
 import { FaCcMastercard, FaCcVisa, FaCcJcb } from 'react-icons/fa'
 import { SiAmericanexpress } from 'react-icons/si'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import recommendations from '../assets/recommendations.jpg'
+import recommendations from '../../assets/recommendations.jpg'
 
 const style = {
 	container: `w-full h-auto relative mt-[1em]`,

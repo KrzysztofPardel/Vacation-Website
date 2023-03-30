@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
 import axios from 'axios'
-import '/src/scss/WeatherApp.scss'
+import '/src/styles/WeatherApp.scss'
 
 const WeatherApp = () => {
 	const [data, setData] = useState({})

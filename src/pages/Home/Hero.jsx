@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { AiOutlineSearch } from 'react-icons/ai'
-import sunset from '../assets/sunset.mp4'
+import sunset from '../../assets/sunset.mp4'
 const style = {
 	container: `w-[100%] h-screen relative`,
 	video: `w-[100%] h-[100%] object-cover`,

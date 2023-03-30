@@ -1,5 +1,5 @@
 import React from 'react'
-import Friends from '../assets/Friends.jpg'
+import Friends from '../../assets/Friends.jpg'
 
 const style = {
 	container: `w-full h-auto relative mt-[1em]`,

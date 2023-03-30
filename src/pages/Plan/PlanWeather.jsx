@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import '../scss/Others.scss'
-import WeatherApp from './WeatherApp'
+// import '../styles/Others.scss'
+import WeatherApp from '../../components/WeatherApp'
 
 const style = {
 	background: `object-cover -z-10 absolute w-[100vw] h-[55rem] md:h-[50rem] lg:h-[45rem] opacity-40`,

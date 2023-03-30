@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs'
-import SelectsOffer from './SelectsOffer'
-import imageone from '../assets/imageone.jpg'
-import imagethree from '../assets/imagethree.jpg'
-import imagefive from '../assets/imagefive.jpg'
+import SelectsOffer from '/src/pages/Home/SelectsOffer'
+import imageone from '../../assets/imageone.jpg'
+import imagethree from '../../assets/imagethree.jpg'
+import imagefive from '../../assets/imagefive.jpg'
 
 // import { images } from './assets'
 const style = {
